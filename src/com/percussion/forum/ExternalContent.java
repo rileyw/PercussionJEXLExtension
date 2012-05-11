@@ -15,6 +15,12 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import org.apache.commons.lang.StringUtils;
 
+/**
+ * 
+ * @author rileyw
+ *
+ */
+
 public class ExternalContent extends PSJexlUtilBase {
 
 	@IPSJexlMethod(description="Returns the String provided", params={@com.percussion.extension.IPSJexlParam(name="string", description="the JSON string")})
